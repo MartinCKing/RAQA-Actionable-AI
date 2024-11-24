@@ -90,12 +90,13 @@
             position: relative;
             z-index: 1; /* Ensures it sits above the overlay */
         }
+
         .image {
-            max-width: 150px; /* Control the image size */
-            height: auto;
-            border-radius: 5px;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-        }
+            max-height: 3em; /* Adjust the maximum height for better scaling */
+            width: auto; /* Keep aspect ratio */
+            border-radius: 5px; /* Optional: for a softer look */
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Optional shadow for a polished effect */
+            }
     </style>
 </head>
 <body>
